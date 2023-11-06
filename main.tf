@@ -20,12 +20,12 @@ provider "aws" {
 }
 
 ###
-## Uncomment this part to deploy s3
+## Uncomment this part to deploy s3 - IN PROGRESS
 ###
 
-module "s3" {
-  source = "./modules/s3/"
-}
+# module "s3" {
+#   source = "./modules/s3/"
+# }
 
 ###
 ## Uncomment this part to deploy staging environment
